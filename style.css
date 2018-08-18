@@ -1,3 +1,107 @@
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('./fonts/MyriadPro-Regular.eot');
+    src: url('./fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/MyriadPro-Regular.woff') format('woff'),
+    url('./fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: url('./img/main-bg.png') no-repeat;
+    background-size: cover;
+    font-family: 'MyriadProRegular';
+}
+
 .main-content {
     max-width: 900px;
+    border: 1px solid red;
+}
+
+.logo {
+    background: url('./img/main-logo.png') no-repeat;
+    max-width: 280px;
+    height: 250px;
+    background-size: contain;
+    margin: 60px auto 710px;
+}
+
+.big-caption {
+    font-size: 110px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.card-section {
+    margin-bottom: 180px;
+}
+
+.card-section h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.card-section .small-card {
+    width: 275px;
+    height: 230px;
+    color: #fff;
+    text-align: center;
+    /* border: 1px solid red; */
+    background-color: #054FB8;
+}
+
+.card-section .small-card img {
+    margin-top: calc(50% - 100px);
+}
+
+.card-section .small-card p {
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.main-text-section {
+  color: #0B1E60;
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 140px;
+}
+
+.main-text-section h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 80px;
+    font-size: 44px;
+  }
+
+.main-text-section h2>span{
+    font-weight:normal;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.mb-90 {
+    margin-bottom: 90px;
+}
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+
+
+/*==========  media  ==========*/
+
+@media only screen and (max-width: 992px) {
 }
