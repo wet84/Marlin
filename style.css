@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'MyriadProRegular';
-    src: url('./fonts/MyriadPro-Regular.eot');
-    src: url('./fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/MyriadPro-Regular.woff') format('woff'),
-    url('./fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-family: 'MyriadProRegularCondensed';
+    src: url('./fonts/MyriadPro-Cond.eot');
+    src: url('./fonts/MyriadPro-Cond.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/MyriadPro-Cond.woff') format('woff'),
+    url('./fonts/MyriadPro-Cond.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,9 +11,12 @@
 body {
     background: url('./img/main-bg.png') no-repeat;
     background-size: cover;
-    font-family: 'MyriadProRegular';
+    font-family: 'MyriadProRegularCondensed';
 }
 
+body h2 {
+    font-family: 'MyriadProRegularCondensed';
+}
 .main-content {
     max-width: 900px;
     border: 1px solid red;
@@ -99,6 +102,59 @@ body {
     margin-bottom: 35px;
 }
 
+.assortment-section {
+    margin-bottom: 250px;
+}
+
+.caption {
+    color: #0B1E60;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.assortment-section .assortment-card-text {
+    color: #0B1E60;
+    max-width: 60%;
+    font-size: 18px;
+}
+
+.assortment-section .assortment-card-text p>strong {
+    font-size: 22px;
+}
+
+.contacts-section {
+margin-bottom: 540px;
+}
+.contacts-section .contacts-info {
+    margin-top: 115px;
+    font-size: 23px;
+    text-align: center;
+    color: #0B1E60;
+}
+
+.contacts-section .contacts-info span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contacts-section .contacts-info a {
+    color: #0B1E60;
+    text-decoration: none;
+}
+
+.contacts-section .contacts-info a:hover {
+    text-decoration: none;
+}
+
+.footer-min-logo {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 23px;
+    color: #0B1E60;
+}
 
 
 /*==========  media  ==========*/
