@@ -375,17 +375,13 @@ body h2 {
     .mb-90 {
         margin-bottom: 50px;
     }
-    
+
     .assortment-section {
         margin-bottom: 100px;
     }
 
     .caption {
         margin-bottom: 50px;
-    }
-
-    .overlay-logo {
-        top: 50%;
     }
 
 }
@@ -413,7 +409,7 @@ body h2 {
     }
 
     .overlay-logo {
-        top: 30%;
+        top: 50%;
     }
 
 }
