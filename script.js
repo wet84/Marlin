@@ -8,10 +8,12 @@ jQuery(document).ready(function($){
     $('.enter').on('click', function(){
         $('.overlay').animate({
               opacity: "1",
-              opacity: "0",
-              display: "none"
-            },
-          2000);
+              opacity: "0"
+            }, 2000,
+            function(){
+                $(this).css('display', 'none');
+            }
+        );
         $('.custom-modal').removeClass('error-overlay');
         clearInterval(stopAnimate);
     });
