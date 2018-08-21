@@ -1,6 +1,3 @@
-$(window).ready(function(){
-    $('.big-caption, .logo').css('opacity', '1');
-});
 
 AOS.init();
 
