@@ -9,15 +9,26 @@
 }
 
 body {
-    background: url('./img/main-bg.png') no-repeat;
-    background-size: cover;
+    /* background: url('./img/main-bg.png') no-repeat;
+    background-size: cover; */
     font-family: 'MyriadProRegularCondensed';
-    background-position: 50% 50%;
+    /* background-position: 50% 50%; */
 }
 
 body h2 {
     font-family: 'MyriadProRegularCondensed';
 }
+
+.background-top {
+    background: url('./img/bg-top.png') no-repeat;
+    background-position: center top;
+}
+
+.background-bottom {
+    background: url('./img/bg-bottom.png') no-repeat;
+    background-size: cover;
+}
+
 .main-content {
     max-width: 900px;
 }
@@ -29,8 +40,7 @@ body h2 {
     height: 1800px;
     position: absolute;
     left: -210px;
-    top: 22%;
-    z-index: -1;
+    top: 26%;
     opacity: 0.8;
 }
 
@@ -41,8 +51,7 @@ body h2 {
     height: 2800px;
     position: absolute;
     right: -210px;
-    top: 17%;
-    z-index: -1;
+    top: 18%;
     opacity: 0.8;
 }
 
@@ -98,6 +107,7 @@ body h2 {
     text-transform: uppercase;
     margin-top: 20px;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .main-text-section {
