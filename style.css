@@ -88,12 +88,15 @@ body h2 {
 }
 
 .card-section .small-card {
-    width: 275px;
-    height: 230px;
+    /* width: 275px;
+    height: 230px; */
     color: #fff;
     text-align: center;
     margin: 0 10px;
     background: rgba(5, 79, 184, 0.8);
+
+    width: 240px;
+    height: 200px;
 }
 
 .card-section .small-card img {
@@ -105,6 +108,9 @@ body h2 {
     margin-top: 20px;
     font-weight: bold;
     letter-spacing: 2px;
+
+    margin-top: calc(50% - 45px);
+    font-size: 20px;
 }
 
 .main-text-section {
@@ -126,9 +132,7 @@ body h2 {
 .mb-40 {
     margin-bottom: 40px;
 }
-.mb-25 {
-    margin-bottom: 25px;
-}
+
 .mb-90 {
     margin-bottom: 90px;
 }
