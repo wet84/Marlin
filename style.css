@@ -11,7 +11,8 @@
 body {
     font-family: 'MyriadProRegularCondensed';
     background: url('./img/new-bg.png') no-repeat;
-    background-position: center top;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 body h2 {
