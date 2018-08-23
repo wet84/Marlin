@@ -10,12 +10,14 @@
 
 body {
     font-family: 'MyriadProRegularCondensed';
+    background: url('./img/new-bg.png') no-repeat;
+    background-position: center top;
 }
 
 body h2 {
     font-family: 'MyriadProRegularCondensed';
 }
-
+/* 
 .background-top {
     background: url('./img/bg-top.png') no-repeat;
     background-position: center top;
@@ -24,7 +26,7 @@ body h2 {
 .background-bottom {
     background: url('./img/bg-bottom.png') no-repeat;
     background-size: cover;
-}
+} */
 
 .main-content {
     max-width: 900px;
