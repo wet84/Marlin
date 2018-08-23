@@ -18,16 +18,6 @@ body {
 body h2 {
     font-family: 'MyriadProRegularCondensed';
 }
-/* 
-.background-top {
-    background: url('./img/bg-top.png') no-repeat;
-    background-position: center top;
-}
-
-.background-bottom {
-    background: url('./img/bg-bottom.png') no-repeat;
-    background-size: cover;
-} */
 
 .main-content {
     max-width: 900px;
@@ -91,13 +81,10 @@ body h2 {
 }
 
 .card-section .small-card {
-    /* width: 275px;
-    height: 230px; */
     color: #fff;
     text-align: center;
     margin: 0 10px;
     background: rgba(5, 79, 184, 0.8);
-
     width: 240px;
     height: 200px;
 }
@@ -111,7 +98,6 @@ body h2 {
     margin-top: 20px;
     font-weight: bold;
     letter-spacing: 2px;
-
     margin-top: calc(50% - 45px);
     font-size: 20px;
 }
@@ -211,7 +197,6 @@ body h2 {
 /*==========  overlay  ==========*/
 
 .overlay {
-    /* background-color: #3498db; */
 	z-index:1000;
 	position:fixed;
 	width:100%; 
@@ -227,6 +212,7 @@ body h2 {
     background-position: 50% 50%;
     width: 340px;
     height: 300px;
+    background-size: contain;
     position: absolute;
     top: 24%;
     left: 50%;
@@ -339,6 +325,19 @@ body h2 {
 
     .big-caption {
         margin-right: -80px;
+    }
+    .overlay-logo {
+        width: 300px;
+        height: 270px;
+        top: 23%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .overlay-logo {
+        width: 300px;
+        height: 270px;
+        top: 23%;
     }
 }
 
