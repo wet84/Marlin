@@ -109,6 +109,10 @@ body h2 {
   margin-bottom: 140px;
 }
 
+.main-text-section>p {
+    text-align: justify;
+}
+
 .main-text-section h2 {
     color: #fff;
     text-transform: uppercase;
