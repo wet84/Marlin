@@ -50,7 +50,7 @@ body h2 {
     max-width: 280px;
     height: 250px;
     background-size: contain;
-    margin: 60px auto 300px;
+    margin: 60px auto 200px;
 }
 
 .big-caption {
@@ -63,9 +63,30 @@ body h2 {
     margin-right: -300px;
 }
 
+.info-video-section {
+    color: #fff;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-video-section .left-text {
+    width: 50%;
+    padding-right: 15px;
+}
+
+.info-video-section .left-text p {
+    font-size: 23px;
+    text-align: justify;
+}
+
+.info-video-section .right-video {
+    width: 50%;
+}
+
 .card-section {
-    margin-bottom: 180px;
-    margin-top: 295px;
+    margin-bottom: 150px;
+    margin-top: 250px;
 }
 
 .card-section h2 {
@@ -129,6 +150,7 @@ body h2 {
 .mb-90 {
     margin-bottom: 90px;
 }
+
 .mb-35 {
     margin-bottom: 35px;
 }
@@ -144,7 +166,7 @@ body h2 {
 }
 
 .assortment-section {
-    margin-bottom: 280px;
+    margin-bottom: 220px;
 }
 
 .assortment-section .assortment-card {
@@ -214,8 +236,8 @@ body h2 {
 .overlay-logo {
     background: url('./img/logo-overlay.png') no-repeat;
     background-position: 50% 50%;
-    width: 340px;
-    height: 300px;
+    width: 275px;
+    height: 235px;
     background-size: contain;
     position: absolute;
     top: 24%;
@@ -233,7 +255,7 @@ body h2 {
     display: inline-block;
     padding-top: 40px;
     position: absolute;
-    top: 60%;
+    top: 56%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -304,12 +326,11 @@ body h2 {
     .logo {
         max-width: 230px;
         height: 200px;
-        margin: 60px auto 200px;
+        margin: 60px auto 150px;
     }
 
     .card-section {
         margin-bottom: 100px;
-        margin-top: 295px;
     }
 
     .assortment-section .assortment-card-text {
@@ -329,19 +350,6 @@ body h2 {
 
     .big-caption {
         margin-right: -80px;
-    }
-    .overlay-logo {
-        width: 300px;
-        height: 270px;
-        top: 23%;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .overlay-logo {
-        width: 300px;
-        height: 270px;
-        top: 23%;
     }
 }
 
@@ -369,6 +377,21 @@ body h2 {
         position: inherit;
     }
 
+    .info-video-section .left-text {
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-video-section .right-video {
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .card-section {
+        margin-top: 160px;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -393,6 +416,7 @@ body h2 {
 
     .card-section {
         margin-bottom: 80px;
+        margin-top: 100px;
     }
     
     .card-section .small-card {
@@ -420,6 +444,18 @@ body h2 {
         margin-bottom: 50px;
     }
 
+    .info-video-section .right-video {
+        width: 80%;
+    }
+
+    .info-video-section .left-text h1 {
+        font-size: 30px;
+    }
+
+    .info-video-section .left-text p {
+        font-size: 18px;
+    }
+
 }
 
 
@@ -445,13 +481,15 @@ body h2 {
     }
 
     .overlay-logo {
-        width: 290px;
-        height: 220px;
         top: 22%;
         background-size: contain;
     }
     .custom-modal {
         top: 67%;
+    }
+
+    .info-video-section .right-video {
+        width: 100%;
     }
 
 }
@@ -464,7 +502,7 @@ body h2 {
 
 @media only screen and (max-height: 500px) {
     .overlay-logo {
-        top: 42%;
+        top: 48%;
     }
 
     .custom-modal {
