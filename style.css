@@ -73,9 +73,6 @@ body h2 {
 .info-video-section .left-text {
     width: 50%;
     padding-right: 15px;
-}
-
-.info-video-section .left-text p {
     font-size: 23px;
     text-align: justify;
 }
@@ -240,7 +237,7 @@ body h2 {
     height: 235px;
     background-size: contain;
     position: absolute;
-    top: 24%;
+    top: 20%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -497,6 +494,10 @@ body h2 {
 @media only screen and (max-height: 780px) {
     .custom-modal {
         top:68%;
+    }
+    
+    .info-video-section {
+        margin-top: 250px;
     }
 }
 
