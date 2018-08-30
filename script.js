@@ -1,6 +1,7 @@
 
 AOS.init();
 
+
 jQuery(document).ready(function($){
     $('.enter').on('click', function(){
         $('.overlay').animate({
