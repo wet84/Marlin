@@ -325,6 +325,10 @@ body h2 {
         height: 200px;
         margin: 60px auto 150px;
     }
+	.overlay-logo {
+	max-width: 230px;
+        height: 200px;
+	}
 
     .card-section {
         margin-bottom: 100px;
