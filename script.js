@@ -1,6 +1,7 @@
 
 AOS.init();
 
+
 jQuery(document).ready(function($){
     $('.enter').on('click', function(){
         $('.overlay').animate({
@@ -9,10 +10,15 @@ jQuery(document).ready(function($){
             }, 2000,
             function(){
                 $(this).css('display', 'none');
+				$("#videoContainer iframe").attr('src', $("#videoContainer iframe").attr('src') + '?autoplay=1');
+
+
+
             }
         );
         $('.custom-modal').removeClass('error-overlay');
         clearInterval(stopAnimate);
+
     });
     
     $('.exit').on('click', function(){
