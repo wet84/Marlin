@@ -108,15 +108,14 @@ body h2 {
 }
 
 .card-section .small-card img {
-    margin-top: calc(50% - 100px);
+    margin-top: 15px;
 }
 
 .card-section .small-card p {
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 12px;
     font-weight: bold;
     letter-spacing: 2px;
-    margin-top: calc(50% - 45px);
     font-size: 20px;
 }
 
@@ -218,7 +217,6 @@ body h2 {
 
 
 /*==========  overlay  ==========*/
-
 .overlay {
 	z-index:1000;
 	position:fixed;
@@ -275,10 +273,12 @@ body h2 {
 }
 
 .custom-modal .buttons-section a {
-    padding: 10px 20px;
+    padding: 6px 20px;
     color: #fff;
     background-color: #0853B7;
     margin-left: 10px;
+    width: 64px;
+    display: inline-block;
 }
 
 .custom-modal .buttons-section a:hover {
@@ -289,6 +289,26 @@ body h2 {
 .error-overlay {
     border: 2px solid red;
 }
+
+.switch-language-section {
+    position: absolute;
+    font-size: 23px;
+    right: 15px;
+    top: 25px;
+    border-radius: 50%;
+    padding: 9px 12px;
+    width: 50px;
+    height: 50px;
+    background-color: #0853B7;
+}
+
+.switch-language-section a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*==========  end overlay  ==========*/
 
 /* create bubbless */
 .individual-bubble {
