@@ -381,6 +381,8 @@ body h2 {
 
 @media only screen and (max-width: 992px) {
   body {
+    background: url('./img/bg_mobile.png') no-repeat;
+    background-size: cover;
     background-position: 60% 50%;
   }
 
@@ -410,7 +412,9 @@ body h2 {
 
 @media only screen and (max-width: 767px) {
   body {
+    background: url('./img/bg_mobile.png') no-repeat;
     background-position: 85% 50%;
+    background-size: cover;
   }
 
   .right-bg-bubbles {
