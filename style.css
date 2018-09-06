@@ -9,12 +9,33 @@
 }
 
 body {
-  font-family: 'MyriadProRegularCondensed';
-  background: url('./img/new-bg.png') no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-}
+  /*font-family: 'MyriadProRegularCondensed';*/
+  /*background: url('./img/bgimp.png') no-repeat;*/
+  /*background-position: 50% 50%;*/
+  /*background-size: cover;*/
 
+
+
+  background: #91a7c1;
+  background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 60%, #207cca 96%, #7db9e8 100%);
+  background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 60%,#207cca 96%,#7db9e8 100%);
+  background: linear-gradient(to bottom, #8adafe 0%,#2989d8 60%,#5ea3e6 96%,#6caeea 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+
+
+}
+.top_bg {
+  font-family: 'MyriadProRegularCondensed';
+  background: url('./img/bgimp.png') no-repeat;
+  /*background-position: 50% 50%;*/
+  background-size: 100%;
+}
+.low_bg {
+  font-family: 'MyriadProRegularCondensed';
+  background: url('./img/bg-bottom.png') no-repeat;
+  background-position: 50% 100%;
+  background-size: contain;
+}
 body h2 {
   font-family: 'MyriadProRegularCondensed';
 }
@@ -380,11 +401,11 @@ body h2 {
 }
 
 @media only screen and (max-width: 992px) {
-  body {
-    background: url('./img/bg_mobile.png') no-repeat;
-    background-size: cover;
-    background-position: 60% 50%;
-  }
+  /*body {*/
+    /*background: url('./img/bg_mobile.png') no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: 60% 50%;*/
+  /*}*/
 
   .assortment-section .assortment-card-text {
     min-width: 80%;
@@ -411,11 +432,11 @@ body h2 {
 }
 
 @media only screen and (max-width: 767px) {
-  body {
-    background: url('./img/bg_mobile.png') no-repeat;
-    background-position: 85% 50%;
-    background-size: cover;
-  }
+  /*body {*/
+    /*background: url('./img/bg_mobile.png') no-repeat;*/
+    /*background-position: 85% 50%;*/
+    /*background-size: cover;*/
+  /*}*/
 
   .right-bg-bubbles {
     top: 24%;
