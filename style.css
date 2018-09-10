@@ -458,7 +458,8 @@ body h2 {
   }
 
   .left-bg-bubbles {
-    display: none;
+    left: -3%;
+    top: 464%;
   }
 
   .big-caption {
