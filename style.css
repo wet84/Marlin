@@ -40,25 +40,31 @@ body h2 {
 }
 
 .left-bg-bubbles {
-  background: url('./img/bubbles-left1.png') no-repeat;
+  background: url('./img/bubbles-left.png') no-repeat;
   background-position: 50% 10%;
   width: 330px;
-  height: 1800px;
+  height: 3300px;
   position: absolute;
-  left: -210px;
+  /* left: -210px;
   top: 26%;
-  opacity: 0.8;
+  opacity: 0.8; */
+  left: 5%;
+  top: 76%;
+  opacity: 0.7;
 }
 
 .right-bg-bubbles {
-  background: url('./img/bubbles-right1.png') no-repeat;
+  background: url('./img/bubbles-right.png') no-repeat;
   background-position: 50% 0%;
   width: 350px;
-  height: 2800px;
+  height: 3300px;
   position: absolute;
-  right: -210px;
-  top: 18%;
-  opacity: 0.8;
+  /* right: -210px;
+  top: 23%;
+  opacity: 0.8; */
+  right: 5%;
+  top: 78%;
+  opacity: 0.7;
 }
 
 .logo {
@@ -228,7 +234,7 @@ body h2 {
 .footer-min-logo {
   margin-top: 100px;
   text-align: center;
-  font-size: 23px;
+  font-size: 18px;
   color: #0b1e60;
 }
 
@@ -338,10 +344,10 @@ body h2 {
 /*==========  media  ==========*/
 
 @media only screen and (max-width: 1500px) {
-  .right-bg-bubbles {
+  /* .right-bg-bubbles {
     width: 330px;
     right: -190px;
-  }
+  } */
 
   .big-caption {
     margin-right: -190px;
@@ -372,13 +378,13 @@ body h2 {
 }
 
 @media only screen and (max-width: 1300px) {
-  .right-bg-bubbles {
-    right: -60px;
+   .right-bg-bubbles {
+    right: 0;
   }
 
   .left-bg-bubbles {
-    left: -70px;
-  }
+    left: 8%;
+  } 
 
   .big-caption {
     margin-right: -80px;
@@ -446,8 +452,8 @@ body h2 {
   /*}*/
 
   .right-bg-bubbles {
-    top: 24%;
-    right: 3px;
+    top: 35%;
+    /* right: 3px; */
     opacity: 0.5;
   }
 
@@ -532,6 +538,7 @@ body h2 {
 
   .info-video-section .right-video {
     width: 100%;
+    height: 250px;
   }
 }
 
